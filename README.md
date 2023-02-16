@@ -124,13 +124,15 @@ layout: default
 
 ```yml
 navigation:
-  - name: Readme
+  - name: Classification
     link: ./index.html
     sublist:
-      - name: Image
+      - name: Bayes Classifier
         link: ./index.html#small-image
-  - name: Another Page
-    link: ./another-page.html
+  - name: KNN
+    link: ./KNN.html
+  - name: Decision Trees
+    link: ./KNN.html
   - ...
 ```
 
