@@ -1,11 +1,5 @@
 <div class="link-wrapper">
-  {% if site.platforms %}
-  <ul class="link">
-    {%- for platform in site.platforms %}
-    <li><a href="{{ platform.link }}">{{ platform.icon }}&nbsp;{{ platform.name }}</a></li>
-    {%- endfor %}
-  </ul>
-  {% endif %}
+  
 
   {% if site.navigation %}
   <h3 class="sidebar-h3">Contents:</h3>
@@ -23,4 +17,15 @@
   {%- endfor %}
   </ul>
   {% endif %}
+
+  {% if site.platforms %}
+  <ul class="link">
+    {%- for platform in site.platforms %}
+    <li><a href="{{ platform.link }}">{{ platform.icon }}&nbsp;{{ platform.name }}</a></li>
+    {%- endfor %}
+  </ul>
+  {% endif %}
+
+
+
 </div>
