@@ -99,7 +99,7 @@ You can define a list of platforms that are linked from the sidebar in `_config.
 platforms:
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
-    link: https://github.com/vaibhavvikas
+    link: https://github.com/SimoneDeBonis
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
     link: https://www..com/in/simonedebonis/
