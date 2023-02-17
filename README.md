@@ -102,7 +102,7 @@ platforms:
     link: https://github.com/vaibhavvikas
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
-    link: https://www.linkedin.com/in/vaibhavvikas
+    link: https://www..com/in/simonedebonis/
   - ...
 ```
 
