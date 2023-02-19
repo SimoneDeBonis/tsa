@@ -1,4 +1,4 @@
-title: Data Science Algorithms
+title: Time Series Analysis
 logo: /assets/img/logo.jpg
 email: simone.debonis98@gmail.com
 description: Learning Algorithms explained in details with math and Numpy.
@@ -22,12 +22,28 @@ platforms:
     link: mailto:simone.debonis98@gmail.com
 
 navigation:
-  - name: Classification
+  - name: Classical techniques
     link: ./index.html
     sublist:
-      - name: Bayes Classifier
+      - name: ARMA
         link: ./index.html#small-image
-  - name: KNN
-    link: ./KNN.html
-  - name: Decision Trees
-    link: ./KNN.html
+      - name: ARIMA
+        link: ./index.html#small-image
+      - name: VAR
+        link: ./index.html#small-image
+      
+  - name: Modern Techniques
+    link: ./index.html
+    sublist:
+      - name: Tree-Based Methods
+        link: ./index.html#small-image
+
+  - name: Libraries
+    link: ./index.html
+    sublist:
+      - name: Prophet
+        link: ./index.html#small-image
+      - name: Greykite
+        link: ./index.html#small-image
+      - name: Merlion
+        link: ./index.html#small-image
