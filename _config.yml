@@ -39,11 +39,16 @@ navigation:
         link: ./index.html#small-image
 
   - name: Libraries
-    link: ./index.html
+    link: ./Libraries.html
     sublist:
       - name: Prophet
-        link: ./index.html#small-image
+        link: ./Libraries.html#Facebook's-Prophet
       - name: Greykite
-        link: ./index.html#small-image
+        link: ./Libraries.html#Linkedin's-Greykite
+      - name: Orbit
+        link: ./Libraries.html#Uber's-Orbit
       - name: Merlion
-        link: ./index.html#small-image
+        link: ./Libraries.html#Salesforce's-Merlion
+
+
+
